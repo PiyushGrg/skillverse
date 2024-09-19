@@ -90,7 +90,7 @@ function CreateCourse() {
               <FormItem>
                 <FormLabel>Teacher&apos;s Name</FormLabel>
                 <FormControl>
-                  <Input placeholder="Abdulrahman Nahhas" {...field} />
+                  <Input placeholder="Mr. XYZ" {...field} />
                 </FormControl>
                 <FormDescription>
                   What is your name?
