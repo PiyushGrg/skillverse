@@ -62,7 +62,7 @@ export const columns: ColumnDef<Course>[] = [
       const price = parseFloat(row.getValue("price"));
       const formatted = Intl.NumberFormat("en-US", {
         style: "currency",
-        currency: "TRY",
+        currency: "INR",
       }).format(price);
 
       return (
